@@ -244,8 +244,8 @@ class CredentialController extends ApiController {
 			$credential['shared_key'] = $shared_key;
 		}
 		if ($unshare_action === true) {
-			$storedCredential->setSharedKey('');
-			$credential['shared_key'] = '';
+			$storedCredential->setSharedKey(NULL);
+			$credential['shared_key'] = null;
 		}
 
 		if (!isset($credential['shared_key'])) {

@@ -68,11 +68,8 @@ use \OCP\AppFramework\Db\Entity;
  * @method string getOtp()
  * @method void setHidden(bool $value)
  * @method string getHidden()
- * @method void setSharedKey(string $value)
+ * @method void setSharedKey(string|null $value)
  * @method string getSharedKey()
-
-
-
  */
 
 

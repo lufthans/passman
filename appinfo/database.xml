@@ -237,6 +237,7 @@
 			<field>
 				<name>shared_key</name>
 				<type>clob</type>
+				<notnull>false</notnull>
 			</field>
 			<index>
 				<name>passman_credential_id_index</name>
